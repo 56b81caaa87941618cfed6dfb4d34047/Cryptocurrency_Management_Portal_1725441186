@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific design elements do you envision for the ETH wrapping component, such as buttons, inputs, or status displays?\", \"option1\": \"Minimalist design with sleek buttons and clear input fields\", \"option2\": \"Colorful and engaging design with icons and animated elements\"}, {\"question 2\": \"How would you like to present the results of the wrapping process to the user? Should it be shown in real-time or after the transaction is complete?\", \"option1\": \"Real-time updates with progress indicators\", \"option2\": \"Final results displayed only after the transaction is complete\"}], \"input_token_count\": 358, \"output_token_count\": 132, \"time_taken\": \"0:00:03.293749\"}",
+        "message_id": "guest04092024091444",
+        "timestamp": "04092024091450",
+        "component_file_name": "simple_header_component_1725441219",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Okay, I will develop a component for wrapping ETH using the specified smart contract.",
         "message_id": "guest04092024091444",
