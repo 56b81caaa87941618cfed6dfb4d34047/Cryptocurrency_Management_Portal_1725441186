@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionalities do you want the component to provide for interacting with Aave?\", \"option1\": \"Deposit and withdraw assets\", \"option2\": \"View interest rates and loan information\"}, {\"question 2\": \"How would you like the component to be visually styled or designed within your app?\", \"option1\": \"Modern and minimalistic layout\", \"option2\": \"Colorful and engaging interface\"}], \"input_token_count\": 299, \"output_token_count\": 96, \"time_taken\": \"0:00:02.911273\"}",
+        "message_id": "guest04092024173930",
+        "timestamp": "04092024173936",
+        "component_file_name": "simple_header_component_1725468073",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "generate a component to interact with aave (0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322) on ethereum",
         "message_id": "guest04092024173930",
