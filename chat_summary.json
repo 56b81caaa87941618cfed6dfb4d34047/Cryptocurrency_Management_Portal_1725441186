@@ -8,6 +8,12 @@
         "div_id": ""
     },
     {
+        "role": "chat_acknowledge",
+        "content": "Understood, I\u2019m implementing a wrapping component for ETH.",
+        "timestamp": "04092024122353",
+        "message_id": "guest04092024122352"
+    },
+    {
         "role": "user",
         "content": "A component capable of wrapping eth with the contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 in eth mainnet",
         "timestamp": "04092024122352",
