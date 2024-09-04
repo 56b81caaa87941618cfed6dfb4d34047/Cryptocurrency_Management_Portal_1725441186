@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific design features do you envision for the ETH wrapping component, such as visual elements or UI layouts?\", \"option1\": \"I want a clean and simple interface\", \"option2\": \"I prefer a more detailed and information-rich display\"}, {\"question 2\": \"How do you want the user interaction to be with the ETH wrapping component, such as button placements or confirmation messages?\", \"option1\": \"I want buttons to be prominently displayed\", \"option2\": \"I prefer a minimalistic approach with fewer buttons\"}], \"input_token_count\": 420, \"output_token_count\": 120, \"time_taken\": \"0:00:01.398370\"}",
+        "message_id": "guest04092024122352",
+        "timestamp": "04092024122357",
+        "component_file_name": "simple_header_component_1725441219",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Understood, I\u2019m implementing a wrapping component for ETH.",
         "message_id": "guest04092024122352",
