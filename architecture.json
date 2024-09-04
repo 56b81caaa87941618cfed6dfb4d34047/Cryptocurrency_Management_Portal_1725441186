@@ -2,5 +2,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\n\nUser: A component for wrapping ETH using the smart contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 on ethereum mainnet\n\nThis is the user's current request of changes to be made:\nA component for wrapping ETH using the smart contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 on ethereum mainnet"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\n\nUser: A component capable of wrapping eth with the contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 in eth mainnet\nAI: Okay, I will develop a component for wrapping ETH using the specified smart contract.\nUser: A component for wrapping ETH using the smart contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 on ethereum mainnet\n\nThis is the user's current request of changes to be made:\nA component capable of wrapping eth with the contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 in eth mainnet"
     }
 ]
