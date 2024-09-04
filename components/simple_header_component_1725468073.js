@@ -3,7 +3,7 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
 -->
 
 <template>
-    <header id="header-section" class="w-full">
+    <header id="header-section" style="min-height: 110px" class="w-full">
         <nav id="nav-bar" class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
             <div id="nav-container" class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a id="logo-link" href="#" class="flex items-center">
