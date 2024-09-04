@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_acknowledge",
+        "content": "Sure, I'm creating a token swap component for that contract.",
+        "message_id": "guest04092024164154",
+        "timestamp": "04092024164157",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "generate a token swap component for the contract 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2 (eth)",
         "message_id": "guest04092024164154",
