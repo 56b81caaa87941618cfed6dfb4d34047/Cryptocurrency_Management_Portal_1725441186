@@ -9,7 +9,7 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                 <a id="logo-link" href="#" class="flex items-center">
                     <img id="logo-image" src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
                     <span id="app-name" class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                        STARTER_TEMPLATE_APPLICATION_NAME
+                        CryptoFolio
                     </span>
                 </a>
                 <div id="menu-toggle-button" class="flex items-center lg:order-2">
@@ -58,7 +58,7 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                                 class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
                                 aria-current="page"
                             >
-                                STARTER_TEMPLATE_PLACEHOLDER_TABLE_ITEM_1
+                                Bitcoin (BTC)
                             </a>
                         </li>
                         <li id="nav-item-1">
@@ -66,7 +66,7 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                                 href="#"
                                 class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                             >
-                                STARTER_TEMPLATE_PLACEHOLDER_TABLE_ITEM_2
+                                Ethereum (ETH)
                             </a>
                         </li>
                         <li id="nav-item-2">
@@ -74,7 +74,7 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                                 href="#"
                                 class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                             >
-                                STARTER_TEMPLATE_PLACEHOLDER_TABLE_ITEM_3
+                                Ripple (XRP)
                             </a>
                         </li>
                         <li id="nav-item-3">
@@ -82,7 +82,7 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                                 href="#"
                                 class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                             >
-                                STARTER_TEMPLATE_PLACEHOLDER_TABLE_ITEM_4
+                                Litecoin (LTC)
                             </a>
                         </li>
                     </ul>
