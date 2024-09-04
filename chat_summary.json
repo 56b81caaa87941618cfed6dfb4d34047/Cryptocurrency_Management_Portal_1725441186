@@ -8,6 +8,12 @@
         "div_id": ""
     },
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Display Current ETH Price\", \"checked\": true}, {\"feature\": \"User Transaction History\", \"checked\": false}, {\"feature\": \"Interactive Wrapper Component\", \"checked\": true}, {\"feature\": \"Estimated Gas Fee Calculator\", \"checked\": false}, {\"feature\": \"Notifications for Transactions\", \"checked\": false}, {\"feature\": \"User Guide or Tooltip for Wrapping ETH\", \"checked\": true}], \"input_token_count\": 313, \"output_token_count\": 98, \"time_taken\": \"0:00:01.449913\"}",
+        "timestamp": "04092024091521",
+        "message_id": "guest04092024091444"
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific design elements do you envision for the ETH wrapping component, such as buttons, inputs, or status displays?\", \"option1\": \"Minimalist design with sleek buttons and clear input fields\", \"option2\": \"Colorful and engaging design with icons and animated elements\"}, {\"question 2\": \"How would you like to present the results of the wrapping process to the user? Should it be shown in real-time or after the transaction is complete?\", \"option1\": \"Real-time updates with progress indicators\", \"option2\": \"Final results displayed only after the transaction is complete\"}], \"input_token_count\": 358, \"output_token_count\": 132, \"time_taken\": \"0:00:03.293749\"}",
         "timestamp": "04092024091450",
