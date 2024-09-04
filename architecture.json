@@ -1,1 +1,6 @@
-[]
+[
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\n\nUser: A component for wrapping ETH using the smart contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 on ethereum mainnet\n\nThis is the user's current request of changes to be made:\nA component for wrapping ETH using the smart contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 on ethereum mainnet"
+    }
+]
