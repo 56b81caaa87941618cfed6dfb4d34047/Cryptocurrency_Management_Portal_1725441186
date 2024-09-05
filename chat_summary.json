@@ -8,6 +8,57 @@
         "div_id": ""
     },
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Sheep counter component with button to increment count\", \"checked\": true}, {\"feature\": \"Visual representation of sheep count (e.g., sheep icons)\", \"checked\": true}, {\"feature\": \"Reset button to reset sheep count to zero\", \"checked\": false}, {\"feature\": \"Sound effect for each sheep counted\", \"checked\": false}, {\"feature\": \"Display total count in a prominent position\", \"checked\": true}], \"input_token_count\": 716, \"output_token_count\": 102, \"time_taken\": \"0:00:03.499895\"}",
+        "message_id": "guest05092024120614",
+        "timestamp": "05092024120626",
+        "component_file_name": "simple_header_component_1725468073",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "In the conversation, the user engaged with the AI assistant to create a series of components related to Ethereum transactions. The user requested a component for wrapping ETH with a specific smart contract (0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2) on the Ethereum mainnet. The AI acknowledged this request and began the development process, offering the user options for design preferences, such as minimalist versus detailed styles for the ETH wrapping component. The user was also presented with various feature checklists, indicating which functionalities they preferred like visual confirmations, real-time ETH gas tracking, and transaction history insights.\n\nAdditionally, the user requested another component for interacting with Aave (contract: 0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322), specifying desired functionalities and interface styles. The AI responded affirmatively, indicating ongoing work on the Aave component. The user further sought a token swap component for a different contract (0x6b3595068778dd592e39a122f4f5a5cf09c90fe2), and the AI confirmed its creation while again offering checklists for additional features.\n\nThroughout the conversation, the AI provided continuous feedback, maintaining clarity on the user\u2019s preferences for design choices and specific functionalities for each component. Key elements in the discussion included user interface preferences, design elements for interactivity, and functionalities that included notifications and transaction summaries. Ultimately, the AI consistently acknowledged the user's requests and outlined the features being developed, ensuring comprehensive input tailoring to the user\u2019s requirements.",
+        "timestamp": "05092024120626",
+        "message_id": "guest05092024120614"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How would you like the sheep counter to be visually represented? Should it use icons, text, or a combination of both?\", \"option1\": \"Use cute sheep icons\", \"option2\": \"Just display the number of sheep as text\"}, {\"question 2\": \"What would you like the counter's button style to be? Should it be large and prominent, or more minimalistic?\", \"option1\": \"Large and prominent\", \"option2\": \"Minimalistic and unobtrusive\"}], \"input_token_count\": 761, \"output_token_count\": 115, \"time_taken\": \"0:00:01.233135\"}",
+        "message_id": "guest05092024120614",
+        "timestamp": "05092024120618",
+        "component_file_name": "simple_header_component_1725468073",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it, I\u2019ll develop a sheep counting feature for you.",
+        "message_id": "guest05092024120614",
+        "timestamp": "05092024120615",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "Change this into a counter counting sheep. Each button press, one more sheep",
+        "message_id": "guest05092024120614",
+        "timestamp": "05092024120614",
+        "component_file_name": "simple_header_component_1725468073",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Display current ETH price in real-time\", \"checked\": true}, {\"feature\": \"Include a tooltip with wrapping instructions\", \"checked\": true}, {\"feature\": \"Add an option to customize gas settings\", \"checked\": false}, {\"feature\": \"Provide a transaction history log for wrapped ETH\", \"checked\": false}, {\"feature\": \"Integrate a user-friendly progress bar during the wrapping process\", \"checked\": true}, {\"feature\": \"Implement a simple confirmation modal upon completing the wrap\", \"checked\": false}], \"input_token_count\": 672, \"output_token_count\": 121, \"time_taken\": \"0:00:01.685998\"}",
+        "message_id": "guest05092024115747",
+        "timestamp": "05092024115821",
+        "component_file_name": "simple_header_component_1725468073",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionalities do you want included in the ETH wrapping component, such as custom input for wrap amounts or confirmation prompts?\", \"option1\": \"Custom input for wrap amounts\", \"option2\": \"Confirmation prompts before wrapping\"}, {\"question 2\": \"How would you like the results of the wrapping process to be displayed to the user, such as through notifications or a dedicated section on the page?\", \"option1\": \"Notifications for each transaction\", \"option2\": \"Dedicated section showing transaction history\"}], \"input_token_count\": 717, \"output_token_count\": 115, \"time_taken\": \"0:00:02.951997\"}",
         "message_id": "guest05092024115747",
@@ -15,12 +66,6 @@
         "component_file_name": "simple_header_component_1725468073",
         "div_id": "",
         "div_action": ""
-    },
-    {
-        "role": "summary",
-        "content": "In the conversation, the AI assistant and the user collaborated to develop components for interacting with the Ethereum network and Aave. The user specified a contract address (0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2) for wrapping ETH on the Ethereum mainnet, to which the AI confirmed its implementation. The user was presented with a checklist of potential additional features for the wrapping component, including a user-friendly dashboard, transaction history, notifications for market changes, and an educational modal for new users. The user was also prompted with questions about desired functionalities and visual styling for the components.\n\nSubsequently, the user requested a component for interacting with Aave (0x5D4Aa78B08Bc7C530e21bf7447988b1Be7991322) which the AI acknowledged it was creating. Along with this, a checklist for additional features for Aave interaction was offered, highlighting components such as a token swap, swap history log, and real-time price updates. The AI then sought user preferences on the swap component's specific functionalities and user interface design.\n\nFollowing that, the user reiterated their request for a token swap component for another contract (0x6b3595068778dd592e39a122f4f5a5cf09c90fe2), prompting the AI to acknowledge the task. The user was again provided with a checklist for the additional features. The AI continued to gather user input on the design and functionalities of both the wrap and swap components through similar questions.\n\nFinally, the AI confirmed its plans to develop a component for wrapping ETH using the specified contract for the user, maintaining an ongoing engagement to refine the user experience with clear communication and options.",
-        "timestamp": "05092024115754",
-        "message_id": "guest05092024115747"
     },
     {
         "role": "user",
@@ -45,51 +90,6 @@
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time ETH price display\", \"checked\": true}, {\"feature\": \"Interactive ETH wrapping tutorial\", \"checked\": false}, {\"feature\": \"Transaction history log\", \"checked\": false}, {\"feature\": \"Confirmation modal for wrapping actions\", \"checked\": true}, {\"feature\": \"Customizable gas fee settings\", \"checked\": false}, {\"feature\": \"User guide tooltips for wrapping ETH\", \"checked\": true}], \"input_token_count\": 617, \"output_token_count\": 102, \"time_taken\": \"0:00:01.272643\"}",
         "message_id": "guest05092024114823",
         "timestamp": "05092024114832",
-        "component_file_name": "simple_header_component_1725468073",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What design style do you prefer for the ETH wrapping component: minimalist and clean or more detailed with additional information?\", \"option1\": \"Minimalist and clean\", \"option2\": \"Detailed with additional information\"}, {\"question 2\": \"How would you like the user feedback to be presented after wrapping ETH: a success message only or detailed transaction information?\", \"option1\": \"Success message only\", \"option2\": \"Detailed transaction information\"}], \"input_token_count\": 662, \"output_token_count\": 103, \"time_taken\": \"0:00:02.747098\"}",
-        "message_id": "guest05092024114823",
-        "timestamp": "05092024114829",
-        "component_file_name": "simple_header_component_1725468073",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Okay, I'm working on creating an ETH wrap component now.",
-        "message_id": "guest05092024114823",
-        "timestamp": "05092024114825",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "A component capable of wrapping eth with the contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 in eth mainnet",
-        "message_id": "guest05092024114823",
-        "timestamp": "05092024114824",
-        "component_file_name": "simple_header_component_1725468073",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add visual confirmation for wrapping transaction\", \"checked\": true}, {\"feature\": \"Implement real-time ETH gas fee tracking\", \"checked\": false}, {\"feature\": \"Include a progress bar during wrapping process\", \"checked\": false}, {\"feature\": \"Enable user history tracking for wrapped ETH transactions\", \"checked\": false}, {\"feature\": \"Add a help center link for wrapping ETH features\", \"checked\": true}], \"input_token_count\": 617, \"output_token_count\": 98, \"time_taken\": \"0:00:01.070692\"}",
-        "message_id": "guest05092024090413",
-        "timestamp": "05092024090423",
-        "component_file_name": "simple_header_component_1725468073",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What type of user interface design do you prefer for the ETH wrapping component?\", \"option1\": \"A clean and minimalistic design\", \"option2\": \"A more detailed and informative design\"}, {\"question 2\": \"How would you like the confirmation process to be set up for the wrapping action?\", \"option1\": \"A single confirmation button\", \"option2\": \"Multiple confirmation steps for added security\"}], \"input_token_count\": 662, \"output_token_count\": 97, \"time_taken\": \"0:00:01.162910\"}",
-        "message_id": "guest05092024090413",
-        "timestamp": "05092024090420",
         "component_file_name": "simple_header_component_1725468073",
         "div_id": "",
         "div_action": ""
