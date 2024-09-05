@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific design elements are you envisioning for the glassmorphic effect on the component?\", \"option1\": \"Frosted glass with blurred backgrounds\", \"option2\": \"Transparent with subtle shadows and light effects\"}, {\"question 2\": \"Do you have any particular dimensions or layout preferences for how the component should be structured?\", \"option1\": \"Compact and minimalistic layout\", \"option2\": \"Expanded with more detailed information display\"}], \"input_token_count\": 670, \"output_token_count\": 104, \"time_taken\": \"0:00:01.623870\"}",
+        "message_id": "guest05092024181430",
+        "timestamp": "05092024181435",
+        "component_file_name": "basic_login_form_1725560036",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "I'm on it, creating a beautiful green glassmorphic component now.",
         "message_id": "guest05092024181430",
