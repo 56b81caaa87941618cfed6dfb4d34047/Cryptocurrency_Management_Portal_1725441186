@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific text would you like to display for the 'number counter' label?\", \"option1\": \"Simply 'Number Counter'\", \"option2\": \"A more descriptive label like 'Count Your Numbers'\"}, {\"question 2\": \"Would you prefer any specific colour scheme or design for the 'number counter' to maintain the clean and minimalist design?\", \"option1\": \"Keep it consistent with the existing design\", \"option2\": \"Use a vibrant colour like blue or green for the counter\"}], \"input_token_count\": 632, \"output_token_count\": 115, \"time_taken\": \"0:00:02.025608\"}",
+        "message_id": "guest05092024130438",
+        "timestamp": "05092024130446",
+        "component_file_name": "simple_header_component_1725468073",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "I'm on it, changing to number counter now.",
         "message_id": "guest05092024130438",
