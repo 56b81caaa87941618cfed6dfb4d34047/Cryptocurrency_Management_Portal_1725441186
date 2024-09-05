@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionalities would you like the component for interacting with the contract to have?\", \"option1\": \"Basic interactions like viewing balance and transactions\", \"option2\": \"Advanced features like swapping and lending options\"}, {\"question 2\": \"How do you envision the layout of this green component? Should it be a card design or a full-width section?\", \"option1\": \"Card design\", \"option2\": \"Full-width section\"}], \"input_token_count\": 630, \"output_token_count\": 102, \"time_taken\": \"0:00:01.668931\"}",
+        "message_id": "guest05092024181137",
+        "timestamp": "05092024181144",
+        "component_file_name": "simple_header_component_1725441219",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Okay, I'm creating a beautiful green component for that contract.",
         "message_id": "guest05092024181137",

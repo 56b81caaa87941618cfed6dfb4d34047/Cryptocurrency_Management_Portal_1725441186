@@ -8,6 +8,57 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionalities would you like the component for interacting with the contract to have?\", \"option1\": \"Basic interactions like viewing balance and transactions\", \"option2\": \"Advanced features like swapping and lending options\"}, {\"question 2\": \"How do you envision the layout of this green component? Should it be a card design or a full-width section?\", \"option1\": \"Card design\", \"option2\": \"Full-width section\"}], \"input_token_count\": 630, \"output_token_count\": 102, \"time_taken\": \"0:00:01.668931\"}",
+        "message_id": "guest05092024181137",
+        "timestamp": "05092024181144",
+        "component_file_name": "simple_header_component_1725441219",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "The user and the AI assistant engaged in a conversation regarding the development of various components and features related to ETH and user interface elements. The AI acknowledged the user's requests throughout the interaction. The user initially requested changing a \"sheet counter\" to a \"number counter,\" prompting the AI to confirm the action. The user then specified color changes, asking for a purple color, which the AI agreed to implement.\n\nSubsequent user requests included creating a sheep counter, which the AI acknowledged it would develop. The user later asked for an ETH wrapping component linked to a specific smart contract, which the AI confirmed it was working on. Throughout the conversation, the AI provided options regarding specific functionalities and design preferences for each component, including features for customizable colors, real-time feedback, transaction histories, and button designs.\n\nThe user also emphasized the need for various elements, such as a token swap component, and the AI expressed commitment to generating these components while offering to implement additional features based on user preferences. The conversation consistently focused on tailoring components to user specifications, with the AI demonstrating responsiveness to the user's requirements, including interface design and functionality preferences for interacting with the Aave protocol and wrapping ETH.",
+        "timestamp": "05092024181144",
+        "message_id": "guest05092024181137"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Okay, I'm creating a beautiful green component for that contract.",
+        "message_id": "guest05092024181137",
+        "timestamp": "05092024181138",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "A component for interacting with contract 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2, very beautiful and green",
+        "message_id": "guest05092024181137",
+        "timestamp": "05092024181137",
+        "component_file_name": "simple_header_component_1725441219",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time ETH price display\", \"checked\": true}, {\"feature\": \"User-friendly tooltips for wrapping instructions\", \"checked\": true}, {\"feature\": \"Progress bar during the wrapping process\", \"checked\": false}, {\"feature\": \"Success message upon successful wrapping\", \"checked\": true}, {\"feature\": \"Input validation for wrap amounts\", \"checked\": false}, {\"feature\": \"Transaction history log for user activity\", \"checked\": false}], \"input_token_count\": 611, \"output_token_count\": 107, \"time_taken\": \"0:00:01.516354\"}",
+        "message_id": "guest05092024130820",
+        "timestamp": "05092024130857",
+        "component_file_name": "simple_header_component_1725541683",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How would you like the counting interface for the sheep counter to be designed?\", \"option1\": \"Simple buttons with numbers displayed\", \"option2\": \"Animated sheep images with a counter below\"}, {\"question 2\": \"What color theme would you prefer for the sheep counting component?\", \"option1\": \"Light and pastel colors\", \"option2\": \"Bold and vibrant colors\"}], \"input_token_count\": 656, \"output_token_count\": 91, \"time_taken\": \"0:00:01.596434\"}",
+        "message_id": "guest05092024130820",
+        "timestamp": "05092024130825",
+        "component_file_name": "simple_header_component_1725541683",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I'm developing a component to wrap ETH with the specified contract.",
         "message_id": "guest05092024130820",
@@ -15,12 +66,6 @@
         "component_file_name": "",
         "div_id": "",
         "div_action": ""
-    },
-    {
-        "role": "summary",
-        "content": "The user requested modifications and features for a set of components related to sheep counting and ETH transactions. Initially, the user asked to implement a sheep counter that increments the count with each button press, to which the AI confirmed it would develop the feature. The user then provided a detailed list of desired additional features, including real-time ETH price display and user interface options, which the AI acknowledged and confirmed it would integrate. The user continued to specify a component for wrapping ETH using a particular contract on the Ethereum mainnet, and the AI acknowledged this while outlining other features they could consider, such as transaction history and notifications. The conversation progressed with the user consistently specifying features they wanted, including an interactive component for interacting with Aave, real-time ETH price updates, and a user-friendly token swap component for a specific contract. The AI responded affirmatively to each request, confirming that it would work on the components based on the user\u2019s specifications. Ultimately, the user established clear, ongoing requests for various smart contract interactions on Ethereum, and the AI continuously acknowledged and committed to implementing those features.",
-        "timestamp": "05092024130822",
-        "message_id": "guest05092024130820"
     },
     {
         "role": "user",
@@ -46,51 +91,6 @@
         "message_id": "guest05092024130438",
         "timestamp": "05092024130446",
         "component_file_name": "simple_header_component_1725468073",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "I'm on it, changing to number counter now.",
-        "message_id": "guest05092024130438",
-        "timestamp": "05092024130439",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "CHange this to normal counter, not sheet counter. Just say \"number counter\"",
-        "message_id": "guest05092024130438",
-        "timestamp": "05092024130438",
-        "component_file_name": "simple_header_component_1725468073",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Customizable color themes\", \"checked\": true}, {\"feature\": \"Dynamic button resizing\", \"checked\": false}, {\"feature\": \"Animated transition effects\", \"checked\": false}, {\"feature\": \"Tooltip help for features\", \"checked\": true}, {\"feature\": \"Real-time feedback messages\", \"checked\": false}, {\"feature\": \"Option to change font styles\", \"checked\": true}], \"input_token_count\": 652, \"output_token_count\": 96, \"time_taken\": \"0:00:01.297441\"}",
-        "message_id": "guest05092024122638",
-        "timestamp": "05092024122730",
-        "component_file_name": "simple_header_component_1725468073",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific element do you want to change to purple (e.g., button, background, text)?\", \"option1\": \"Button\", \"option2\": \"Text\"}, {\"question 2\": \"Would you like the purple color to have a specific shade (e.g., light purple, dark purple)?\", \"option1\": \"Light purple\", \"option2\": \"Dark purple\"}], \"input_token_count\": 697, \"output_token_count\": 93, \"time_taken\": \"0:00:01.107828\"}",
-        "message_id": "guest05092024122638",
-        "timestamp": "05092024122726",
-        "component_file_name": "simple_header_component_1725468073",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Sure, I will change this to a purple colour.",
-        "message_id": "guest05092024122638",
-        "timestamp": "05092024122639",
-        "component_file_name": "",
         "div_id": "",
         "div_action": ""
     }
