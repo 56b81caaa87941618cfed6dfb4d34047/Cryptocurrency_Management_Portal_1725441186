@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What type of user interface design do you prefer for the ETH wrapping component?\", \"option1\": \"A clean and minimalistic design\", \"option2\": \"A more detailed and informative design\"}, {\"question 2\": \"How would you like the confirmation process to be set up for the wrapping action?\", \"option1\": \"A single confirmation button\", \"option2\": \"Multiple confirmation steps for added security\"}], \"input_token_count\": 662, \"output_token_count\": 97, \"time_taken\": \"0:00:01.162910\"}",
+        "message_id": "guest05092024090413",
+        "timestamp": "05092024090420",
+        "component_file_name": "simple_header_component_1725468073",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I'm implementing a component for wrapping ETH at the specified contract.",
         "message_id": "guest05092024090413",
