@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionalities do you want included in the ETH wrapping component, such as custom input for wrap amounts or confirmation prompts?\", \"option1\": \"Custom input for wrap amounts\", \"option2\": \"Confirmation prompts before wrapping\"}, {\"question 2\": \"How would you like the results of the wrapping process to be displayed to the user, such as through notifications or a dedicated section on the page?\", \"option1\": \"Notifications for each transaction\", \"option2\": \"Dedicated section showing transaction history\"}], \"input_token_count\": 717, \"output_token_count\": 115, \"time_taken\": \"0:00:02.951997\"}",
+        "message_id": "guest05092024115747",
+        "timestamp": "05092024115754",
+        "component_file_name": "simple_header_component_1725468073",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "A component capable of wrapping eth with the contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 in eth mainnet",
         "message_id": "guest05092024115747",
