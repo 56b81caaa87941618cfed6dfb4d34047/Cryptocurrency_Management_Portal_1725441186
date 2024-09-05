@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How would you like the sheep counter to be visually represented? Should it use icons, text, or a combination of both?\", \"option1\": \"Use cute sheep icons\", \"option2\": \"Just display the number of sheep as text\"}, {\"question 2\": \"What would you like the counter's button style to be? Should it be large and prominent, or more minimalistic?\", \"option1\": \"Large and prominent\", \"option2\": \"Minimalistic and unobtrusive\"}], \"input_token_count\": 761, \"output_token_count\": 115, \"time_taken\": \"0:00:01.233135\"}",
+        "message_id": "guest05092024120614",
+        "timestamp": "05092024120618",
+        "component_file_name": "simple_header_component_1725468073",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, I\u2019ll develop a sheep counting feature for you.",
         "message_id": "guest05092024120614",
