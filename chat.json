@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What design style do you prefer for the ETH wrapping component: minimalist and clean or more detailed with additional information?\", \"option1\": \"Minimalist and clean\", \"option2\": \"Detailed with additional information\"}, {\"question 2\": \"How would you like the user feedback to be presented after wrapping ETH: a success message only or detailed transaction information?\", \"option1\": \"Success message only\", \"option2\": \"Detailed transaction information\"}], \"input_token_count\": 662, \"output_token_count\": 103, \"time_taken\": \"0:00:02.747098\"}",
+        "message_id": "guest05092024114823",
+        "timestamp": "05092024114829",
+        "component_file_name": "simple_header_component_1725468073",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Okay, I'm working on creating an ETH wrap component now.",
         "message_id": "guest05092024114823",
