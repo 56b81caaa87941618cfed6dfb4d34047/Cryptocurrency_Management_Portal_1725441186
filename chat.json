@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionalities do you want this component to include when interacting with the contract?\", \"option1\": \"Display transaction history and real-time data\", \"option2\": \"Allow users to execute transactions directly from the component\"}, {\"question 2\": \"Would you prefer a minimalistic design for the green glassmorphic component or are there specific visual elements you'd like to incorporate?\", \"option1\": \"Minimalistic design\", \"option2\": \"Add specific visual elements like icons or animations\"}], \"input_token_count\": 718, \"output_token_count\": 112, \"time_taken\": \"0:00:03.160254\"}",
+        "message_id": "guest05092024182511",
+        "timestamp": "05092024182518",
+        "component_file_name": "basic_login_form_1725560036",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I'm creating a green and beautiful component for interaction.",
         "message_id": "guest05092024182511",
