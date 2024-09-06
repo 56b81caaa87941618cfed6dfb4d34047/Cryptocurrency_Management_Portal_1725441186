@@ -1,18 +1,16 @@
 
 <template>
-<div class="container mx-auto p-8">
-<div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-lg shadow-lg p-6 border border-white border-opacity-20">
-<h1 class="text-3xl font-bold mb-6 text-purple-400">WETH Wrapper</h1>
+<div class="container mx-auto p-8 bg-opacity-20 bg-white backdrop-filter backdrop-blur-lg rounded-xl shadow-lg max-w-md">
+<h1 class="text-3xl font-bold mb-6 text-green-400">Wrap ETH to WETH</h1>
 <div class="mb-4">
-<p class="text-white mb-2">ETH Balance: {{ ethBalance }} ETH</p>
-<p class="text-white mb-4">WETH Balance: {{ wethBalance }} WETH</p>
+<label class="block text-sm font-medium text-green-300 mb-2" for="ethAmount">Amount of ETH to wrap</label>
+<input class="w-full px-3 py-2 bg-opacity-20 bg-white backdrop-filter backdrop-blur-sm rounded-md border border-green-400 focus:outline-none focus:ring-2 focus:ring-green-500 text-green-100" id="ethAmount" min="0" placeholder="Enter ETH amount" step="0.01" type="number" v-model="ethAmount"/>
 </div>
-<div class="mb-6">
-<input class="w-full p-2 rounded bg-gray-800 text-white border border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-600" min="0" placeholder="Amount of ETH to wrap" step="0.000000000000000001" type="number" v-model="amount"/>
-</div>
-<button @click="wrapEth" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transform transition hover:scale-105">
-        Wrap ETH
-      </button>
+<button @click="wrapEth" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50">
+      Wrap ETH
+    </button>
+<div class="mt-6 p-4 bg-opacity-30 bg-green-900 rounded-md">
+<p class="text-green-300">Your WETH Balance: {{ wethBalance }} WETH</p>
 </div>
 </div>
 </template>
@@ -20,45 +18,16 @@
 import { ethers } from 'ethers'
 
 export default {
-  name: 'WethWrapper',
+  name: 'WrapEthComponent',
   data() {
     return {
-      amount: '',
-      ethBalance: '0',
+      ethAmount: '',
       wethBalance: '0',
       contract: null,
       signer: null,
-      provider: null,
-    }
-  },
-  methods: {
-    async connectWallet() {
-      if (typeof window.ethereum !== 'undefined') {
-        try {
-          await window.ethereum.request({ method: 'eth_requestAccounts' })
-          this.provider = new ethers.providers.Web3Provider(window.ethereum)
-          this.signer = this.provider.getSigner()
-          
-          const network = await this.provider.getNetwork()
-          if (network.chainId !== 1) {
-            await window.ethereum.request({
-              method: 'wallet_switchEthereumChain',
-              params: [{ chainId: '0x1' }],
-            })
-          }
-          
-          this.initContract()
-          this.updateBalances()
-        } catch (error) {
-          console.error('Failed to connect wallet:', error)
-        }
-      } else {
-        console.error('MetaMask is not installed')
-      }
-    },
-    initContract() {
-      const contractAddress = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
-      const abi = [
+      contractAddress: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
+      chainId: 1,
+      abi: [
         {
           "name": "deposit",
           "stateMutability": "payable",
@@ -68,33 +37,81 @@ export default {
         {
           "name": "balanceOf",
           "stateMutability": "view",
-          "inputs": [{"type": "address"}],
-          "outputs": [{"type": "uint256"}]
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "outputs": [
+            {
+              "name": "balance",
+              "type": "uint256"
+            }
+          ]
         }
       ]
-      this.contract = new ethers.Contract(contractAddress, abi, this.signer)
+    }
+  },
+  methods: {
+    async connectWallet() {
+      if (typeof window.ethereum !== 'undefined') {
+        try {
+          await window.ethereum.request({ method: 'eth_requestAccounts' })
+          const provider = new ethers.providers.Web3Provider(window.ethereum)
+          this.signer = provider.getSigner()
+          this.contract = new ethers.Contract(this.contractAddress, this.abi, this.signer)
+          this.updateBalance()
+        } catch (error) {
+          console.error('Failed to connect wallet:', error)
+        }
+      } else {
+        console.error('MetaMask is not installed')
+      }
     },
-    async updateBalances() {
-      const address = await this.signer.getAddress()
-      const ethBalance = await this.provider.getBalance(address)
-      this.ethBalance = ethers.utils.formatEther(ethBalance)
-      
-      const wethBalance = await this.contract.balanceOf(address)
-      this.wethBalance = ethers.utils.formatEther(wethBalance)
+    async checkNetwork() {
+      if (this.signer) {
+        const network = await this.signer.provider.getNetwork()
+        if (network.chainId !== this.chainId) {
+          try {
+            await window.ethereum.request({
+              method: 'wallet_switchEthereumChain',
+              params: [{ chainId: ethers.utils.hexValue(this.chainId) }],
+            })
+          } catch (error) {
+            console.error('Failed to switch network:', error)
+          }
+        }
+      }
     },
     async wrapEth() {
       if (!this.signer) {
         await this.connectWallet()
       }
-      
-      try {
-        const amountWei = ethers.utils.parseEther(this.amount)
-        const tx = await this.contract.deposit({ value: amountWei })
-        await tx.wait()
-        this.updateBalances()
-        this.amount = ''
-      } catch (error) {
-        console.error('Error wrapping ETH:', error)
+      await this.checkNetwork()
+
+      if (this.contract && this.ethAmount) {
+        try {
+          const tx = await this.contract.deposit({
+            value: ethers.utils.parseEther(this.ethAmount)
+          })
+          await tx.wait()
+          this.updateBalance()
+          this.ethAmount = ''
+        } catch (error) {
+          console.error('Error wrapping ETH:', error)
+        }
+      }
+    },
+    async updateBalance() {
+      if (this.contract && this.signer) {
+        try {
+          const address = await this.signer.getAddress()
+          const balance = await this.contract.balanceOf(address)
+          this.wethBalance = ethers.utils.formatEther(balance)
+        } catch (error) {
+          console.error('Error fetching WETH balance:', error)
+        }
       }
     }
   },
