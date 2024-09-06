@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Deposit amount input field\", \"checked\": true}, {\"feature\": \"Transaction confirmation modal\", \"checked\": true}, {\"feature\": \"Deposit transaction history log\", \"checked\": false}, {\"feature\": \"Real-time ETH balance update\", \"checked\": true}, {\"feature\": \"Gas fee estimation tool\", \"checked\": false}, {\"feature\": \"Interactive help tooltips\", \"checked\": false}], \"input_token_count\": 677, \"output_token_count\": 97, \"time_taken\": \"0:00:02.814130\"}",
+        "message_id": "guest06092024064502",
+        "timestamp": "06092024064517",
+        "component_file_name": "contact_form_1725605000",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific information or feedback would you like to display in the widget after a deposit is made?\", \"option1\": \"Show confirmation message and transaction details\", \"option2\": \"Display a success animation and new balance\"}, {\"question 2\": \"Do you have any preferred color schemes or design styles for the deposit widget?\", \"option1\": \"Maintain the existing green and glassmorphic theme\", \"option2\": \"Explore a different color palette for contrast\"}], \"input_token_count\": 722, \"output_token_count\": 107, \"time_taken\": \"0:00:01.129732\"}",
         "message_id": "guest06092024064502",
