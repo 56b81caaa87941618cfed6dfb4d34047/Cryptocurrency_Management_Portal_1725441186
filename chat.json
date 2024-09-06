@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionalities would you like this blue ETH wrapping component to have?\", \"option1\": \"Basic wrap functionality only\", \"option2\": \"Additional features like gas settings and transaction logs\"}, {\"question 2\": \"Do you have a preferred style or design elements in mind for the blue component?\", \"option1\": \"Modern and minimalistic\", \"option2\": \"Colorful and interactive\"}], \"input_token_count\": 738, \"output_token_count\": 94, \"time_taken\": \"0:00:01.259108\"}",
+        "message_id": "guest06092024064748",
+        "timestamp": "06092024064752",
+        "component_file_name": "contact_form_1725605000",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I'll create a component for wrapping ETH in blue.",
         "message_id": "guest06092024064748",
