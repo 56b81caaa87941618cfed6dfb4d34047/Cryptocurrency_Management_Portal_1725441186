@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"ETH Wrapping Component (blue, glassmorphic design)\", \"checked\": true}, {\"feature\": \"Transaction Confirmation Popup\", \"checked\": false}, {\"feature\": \"Real-time Price Updates\", \"checked\": true}, {\"feature\": \"User-Friendly Tooltips\", \"checked\": true}, {\"feature\": \"Customizable Input Fields for Amounts\", \"checked\": false}, {\"feature\": \"Transaction History Display\", \"checked\": false}], \"input_token_count\": 693, \"output_token_count\": 105, \"time_taken\": \"0:00:01.502705\"}",
+        "message_id": "guest06092024064748",
+        "timestamp": "06092024064800",
+        "component_file_name": "contact_form_1725605000",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionalities would you like this blue ETH wrapping component to have?\", \"option1\": \"Basic wrap functionality only\", \"option2\": \"Additional features like gas settings and transaction logs\"}, {\"question 2\": \"Do you have a preferred style or design elements in mind for the blue component?\", \"option1\": \"Modern and minimalistic\", \"option2\": \"Colorful and interactive\"}], \"input_token_count\": 738, \"output_token_count\": 94, \"time_taken\": \"0:00:01.259108\"}",
         "message_id": "guest06092024064748",
