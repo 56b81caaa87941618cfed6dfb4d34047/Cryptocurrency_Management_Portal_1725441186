@@ -8,6 +8,57 @@
         "div_id": ""
     },
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Ensure the wrapping ETH component uses a green color scheme\", \"checked\": true}, {\"feature\": \"Add clear labels for input fields and buttons\", \"checked\": true}, {\"feature\": \"Include visual feedback for transaction success or failure\", \"checked\": true}, {\"feature\": \"Offer tooltips for user guidance on the wrapping process\", \"checked\": false}, {\"feature\": \"Display transaction history for wrapped ETH\", \"checked\": false}, {\"feature\": \"Incorporate a loading animation while processing transactions\", \"checked\": false}], \"input_token_count\": 707, \"output_token_count\": 124, \"time_taken\": \"0:00:01.424739\"}",
+        "message_id": "guest06092024074116",
+        "timestamp": "06092024074145",
+        "component_file_name": "contact_form_1725605000",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "The user requested the development of multiple components interacting with Ethereum contracts. Initially, they asked for a blue ETH wrapping component to interact with a specified contract on the ETH mainnet. The AI confirmed understanding and began working on it. The user suggested various functionalities and design elements including a modern design, gas settings, and transaction logs. Subsequently, the user specified a widget for ETH deposits, indicating preferred features such as confirmation modals and real-time balance updates.\n\nThe conversation progressed with the user ordering a green and beautiful component for another contract interaction. They provided further details about design preferences and functionalities, including glassmorphism as a design element and transaction confirmations. The AI repeatedly acknowledged the requests and confirmed its progress on the components.\n\nThe user then shifted focus towards creating a sheep counting feature, instructing the AI to change a counter into a counting mechanism for sheep with visual animations. They continued to elaborate on desired features for various components, such as real-time ETH price displays, transaction history logs, and interactive tutorials, and provided preferences for user interface layouts and styles across all functionalities.\n\nThe AI maintained a consistent response pattern, acknowledging each requirement and confirming the development of the requested components. Finally, the user reiterated the need for a wrapping ETH component using the initially specified smart contract, demonstrating a strong focus on the functionality related to ETH wrapping, further emphasizing UX through confirmations and interactive elements. The AI confirmed its commitment to delivering the component as requested.",
+        "timestamp": "06092024074145",
+        "message_id": "guest06092024074116"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific shades of green do you envision for this component?\", \"option1\": \"Bright green\", \"option2\": \"Dark green\"}, {\"question 2\": \"Do you want to maintain the glassmorphic design theme or explore a different style for the green component?\", \"option1\": \"Maintain glassmorphic design\", \"option2\": \"Explore a new style\"}], \"input_token_count\": 752, \"output_token_count\": 90, \"time_taken\": \"0:00:01.118326\"}",
+        "message_id": "guest06092024074116",
+        "timestamp": "06092024074121",
+        "component_file_name": "contact_form_1725605000",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "A component capable of wrapping eth with the contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 in eth mainnet, in green",
+        "message_id": "guest06092024074116",
+        "timestamp": "06092024074117",
+        "component_file_name": "contact_form_1725605000",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Okay, I'll develop a green wrapping component for ETH.",
+        "message_id": "guest06092024074116",
+        "timestamp": "06092024074117",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"User-friendly transaction progress bar\", \"checked\": true}, {\"feature\": \"Interactive transaction notifications\", \"checked\": true}, {\"feature\": \"Real-time ETH price display\", \"checked\": false}, {\"feature\": \"Customizable glassmorphic background\", \"checked\": true}, {\"feature\": \"Tooltip explanations for actions\", \"checked\": true}, {\"feature\": \"User transaction history log\", \"checked\": false}], \"input_token_count\": 749, \"output_token_count\": 100, \"time_taken\": \"0:00:01.107465\"}",
+        "message_id": "guest06092024065424",
+        "timestamp": "06092024065454",
+        "component_file_name": "contact_form_1725605000",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionalities do you want included in the ETH wrapping component?\", \"option1\": \"Transaction notifications and progress bars\", \"option2\": \"User-friendly interface with customizable settings\"}, {\"question 2\": \"Do you have any specific design preferences for the wrapping component, besides the blue color?\", \"option1\": \"Glassmorphic design with minimalistic layout\", \"option2\": \"Bold and modern aesthetics with interactive elements\"}], \"input_token_count\": 794, \"output_token_count\": 100, \"time_taken\": \"0:00:01.134163\"}",
         "message_id": "guest06092024065424",
@@ -15,12 +66,6 @@
         "component_file_name": "contact_form_1725605000",
         "div_id": "",
         "div_action": ""
-    },
-    {
-        "role": "summary",
-        "content": "The user expressed a need for a component to interact with the Ethereum mainnet contract at the address 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2, specifically for ETH deposits. The AI acknowledged the request and began working on a visually appealing, green, and beautiful component with a glassmorphic design. The AI provided the user with a checklist of additional features that could be integrated, such as transaction confirmation popups, loading animations, and gas fee displays. The user was asked about specific functionalities they desired, contrasting display transaction history and real-time data with direct transaction execution options. \n\nThe AI confirmed that it was developing a component for wrapping ETH with the specified contract and inquired further about user interface preferences, including minimalistic versus detailed designs and layout structuring. Additional features like real-time ETH price display, user-friendly tooltips, and transaction history logging were also suggested. \n\nAs the conversation progressed, the user requested feature adjustments like changing a sheep counter to a number counter, wanting clear labels and visual feedback. The AI promptly confirmed these modifications. The user continued to ask for variations in design elements, including a preference for a purple color scheme instead of what was previously suggested. The AI kept adapting to the requests while providing new lists of potential features and asking for further design specifications. \n\nUltimately, the user reiterated their need for an ETH wrapping component using the specified smart contract on the Ethereum mainnet. The AI confirmed its ongoing work on developing this component, ensuring it would fulfill the user's requirements.",
-        "timestamp": "06092024065428",
-        "message_id": "guest06092024065424"
     },
     {
         "role": "chat_acknowledge",
@@ -45,51 +90,6 @@
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"ETH Wrapping Component (blue, glassmorphic design)\", \"checked\": true}, {\"feature\": \"Transaction Confirmation Popup\", \"checked\": false}, {\"feature\": \"Real-time Price Updates\", \"checked\": true}, {\"feature\": \"User-Friendly Tooltips\", \"checked\": true}, {\"feature\": \"Customizable Input Fields for Amounts\", \"checked\": false}, {\"feature\": \"Transaction History Display\", \"checked\": false}], \"input_token_count\": 693, \"output_token_count\": 105, \"time_taken\": \"0:00:01.502705\"}",
         "message_id": "guest06092024064748",
         "timestamp": "06092024064800",
-        "component_file_name": "contact_form_1725605000",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionalities would you like this blue ETH wrapping component to have?\", \"option1\": \"Basic wrap functionality only\", \"option2\": \"Additional features like gas settings and transaction logs\"}, {\"question 2\": \"Do you have a preferred style or design elements in mind for the blue component?\", \"option1\": \"Modern and minimalistic\", \"option2\": \"Colorful and interactive\"}], \"input_token_count\": 738, \"output_token_count\": 94, \"time_taken\": \"0:00:01.259108\"}",
-        "message_id": "guest06092024064748",
-        "timestamp": "06092024064752",
-        "component_file_name": "contact_form_1725605000",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Sure, I'll create a component for wrapping ETH in blue.",
-        "message_id": "guest06092024064748",
-        "timestamp": "06092024064749",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "A component capable of wrapping eth with the contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 in eth mainnet, blue",
-        "message_id": "guest06092024064748",
-        "timestamp": "06092024064748",
-        "component_file_name": "contact_form_1725605000",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Deposit amount input field\", \"checked\": true}, {\"feature\": \"Transaction confirmation modal\", \"checked\": true}, {\"feature\": \"Deposit transaction history log\", \"checked\": false}, {\"feature\": \"Real-time ETH balance update\", \"checked\": true}, {\"feature\": \"Gas fee estimation tool\", \"checked\": false}, {\"feature\": \"Interactive help tooltips\", \"checked\": false}], \"input_token_count\": 677, \"output_token_count\": 97, \"time_taken\": \"0:00:02.814130\"}",
-        "message_id": "guest06092024064502",
-        "timestamp": "06092024064517",
-        "component_file_name": "contact_form_1725605000",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific information or feedback would you like to display in the widget after a deposit is made?\", \"option1\": \"Show confirmation message and transaction details\", \"option2\": \"Display a success animation and new balance\"}, {\"question 2\": \"Do you have any preferred color schemes or design styles for the deposit widget?\", \"option1\": \"Maintain the existing green and glassmorphic theme\", \"option2\": \"Explore a different color palette for contrast\"}], \"input_token_count\": 722, \"output_token_count\": 107, \"time_taken\": \"0:00:01.129732\"}",
-        "message_id": "guest06092024064502",
-        "timestamp": "06092024064512",
         "component_file_name": "contact_form_1725605000",
         "div_id": "",
         "div_action": ""
