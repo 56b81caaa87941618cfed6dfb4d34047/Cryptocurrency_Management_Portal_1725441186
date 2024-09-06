@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionalities do you want included in the ETH wrapping component?\", \"option1\": \"Transaction notifications and progress bars\", \"option2\": \"User-friendly interface with customizable settings\"}, {\"question 2\": \"Do you have any specific design preferences for the wrapping component, besides the blue color?\", \"option1\": \"Glassmorphic design with minimalistic layout\", \"option2\": \"Bold and modern aesthetics with interactive elements\"}], \"input_token_count\": 794, \"output_token_count\": 100, \"time_taken\": \"0:00:01.134163\"}",
+        "message_id": "guest06092024065424",
+        "timestamp": "06092024065428",
+        "component_file_name": "contact_form_1725605000",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Okay, I'll create a component to wrap ETH at that contract.",
         "message_id": "guest06092024065424",
