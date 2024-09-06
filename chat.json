@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific shades of green do you envision for this component?\", \"option1\": \"Bright green\", \"option2\": \"Dark green\"}, {\"question 2\": \"Do you want to maintain the glassmorphic design theme or explore a different style for the green component?\", \"option1\": \"Maintain glassmorphic design\", \"option2\": \"Explore a new style\"}], \"input_token_count\": 752, \"output_token_count\": 90, \"time_taken\": \"0:00:01.118326\"}",
+        "message_id": "guest06092024074116",
+        "timestamp": "06092024074121",
+        "component_file_name": "contact_form_1725605000",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "A component capable of wrapping eth with the contract at 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 in eth mainnet, in green",
         "message_id": "guest06092024074116",
