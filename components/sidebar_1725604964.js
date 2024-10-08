@@ -35,6 +35,21 @@
       </div>
     </div>
   </nav>
+  
+  <!-- Wrap ETH Component -->
+  <div class="fixed bottom-4 right-4 bg-green-100 p-6 rounded-lg shadow-lg w-80">
+    <h2 class="text-2xl font-bold text-green-800 mb-4">Wrap ETH</h2>
+    <div class="mb-4">
+      <label for="ethAmount" class="block text-sm font-medium text-green-700">ETH Amount</label>
+      <input type="number" id="ethAmount" v-model="ethAmount" class="mt-1 block w-full rounded-md border-green-300 shadow-sm focus:border-green-500 focus:ring focus:ring-green-200 focus:ring-opacity-50" placeholder="0.0">
+    </div>
+    <button @click="wrapEth" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+      Wrap ETH
+    </button>
+    <div v-if="transactionStatus" :class="['mt-4 p-2 rounded', transactionStatus === 'success' ? 'bg-green-200 text-green-800' : 'bg-red-200 text-red-800']">
+      {{ transactionStatus === 'success' ? 'Transaction Successful!' : 'Transaction Failed' }}
+    </div>
+  </div>
 </template>
 
 <script>
@@ -104,6 +119,32 @@ export default {
         }
       ]
     };
+  },
+  data() {
+    return {
+      ethAmount: '',
+      transactionStatus: null
+    }
+  },
+  methods: {
+    // Wrap ETH method
+    async wrapEth() {
+      // Implement the wrapping logic here
+      // This is a placeholder for the actual implementation
+      try {
+        // Simulating a transaction
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        this.transactionStatus = 'success';
+      } catch (error) {
+        this.transactionStatus = 'failed';
+      }
+    }
+    // End of Wrap ETH method
   }
 };
+</script>
+
+<style scoped>
+/* Add any additional styles here */
+</style>
 </script>
