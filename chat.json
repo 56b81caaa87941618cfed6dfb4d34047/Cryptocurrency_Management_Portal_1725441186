@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Green color scheme for the wrapping ETH component\", \"checked\": true}, {\"feature\": \"Clear labels for input fields and buttons\", \"checked\": true}, {\"feature\": \"Visual feedback for transaction success or failure\", \"checked\": true}, {\"feature\": \"Tooltip help for input fields\", \"checked\": false}, {\"feature\": \"Responsive design for mobile devices\", \"checked\": false}, {\"feature\": \"Loading indicators during transactions\", \"checked\": false}], \"input_token_count\": 660, \"output_token_count\": 109, \"time_taken\": \"0:00:01.968416\"}",
+        "message_id": "guest08102024082311",
+        "timestamp": "08102024082323",
+        "component_file_name": "sidebar_1725604964",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What shade of green do you prefer for the wrapping ETH component?\", \"option1\": \"Light green\", \"option2\": \"Dark green\"}, {\"question 2\": \"Would you like the labels and buttons to have any specific typography or font style?\", \"option1\": \"Yes, I have a specific style in mind\", \"option2\": \"No, standard typography is fine\"}], \"input_token_count\": 705, \"output_token_count\": 92, \"time_taken\": \"0:00:02.626781\"}",
         "message_id": "guest08102024082311",
