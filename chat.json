@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_acknowledge",
+        "content": "Thanks for your message; let's refocus on the project details.",
+        "message_id": "guest08102024082231",
+        "timestamp": "08102024082233",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Describe the current mini-app",
         "message_id": "guest08102024082231",
